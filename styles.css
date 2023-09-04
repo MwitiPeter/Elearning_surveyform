@@ -1,0 +1,22 @@
+body{  background-color:lightblue;
+    text-align:center;
+    
+    }
+    
+    form{
+      border: 2px solid white;
+      border-radius:10%;
+      margin:40px;
+      padding:20px;
+      font-size:18px;
+    
+    }
+    h1{
+      font-style:italic;
+      font-weight:bolder;
+    }
+    p{
+      font-weight:bold;
+      font-style:italic;
+    }
+    

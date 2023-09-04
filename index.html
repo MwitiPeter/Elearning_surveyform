@@ -1,0 +1,64 @@
+<html>
+  <link rel="stylesheet" href="styles.css">
+
+  <h1 id="title">E-learning Web Development Survey Form</h1>
+  <p id="description"> Fill the survey so that we know you better</p>
+  <form id="survey-form">
+    <br>
+  <div>
+    <label id="name-label">Name</lable>
+  <input id="name" type="text"placeholder="You're Name" required/>
+  </div>
+  <br>
+  <div>
+    <label id="email-label">Email</lable>
+  <input id="email" type="email"placeholder="example@gmail.com" required/>
+  </div>
+  <br>
+  <div>
+    <label id="number-label">Age</lable>
+  <input id="number" type="number"min="16" max="70" placeholder="23" />
+  </div>
+  <br>
+  <div>
+  <label id="role"> Select your current role </label>
+  <br>
+  <select id="dropdown"> 
+    <option id="student">Student</option>
+    <option id="employee">Employee</option>
+    <option id="selfemployed">Self Employed</option>
+  </select>
+  </div>
+  <br>
+<div>
+<label>Would your recommend our e-learning platform</label>
+<br>
+<input id="yes"name="boolean" type="radio" value="yes" > YES </input>
+</div>
+<div>
+<input id="no" name="boolean" type="radio" value="no"> NO </input>
+</div>
+<br>
+<div>
+  <label> Which new courses would you like to be added?</label>
+  <br>
+  <label><input type="checkbox" value="cloud"> Cloud Computing</label>
+  <br>
+  <label><input type="checkbox" value="data">Data Science</label>
+  <br>
+  <label><input type="checkbox" value="aws">AWS Devlopment</label>
+  </div>
+  <br>
+  <div>
+    <label>Additional comment on ou Elearning Platform</label>
+    <br>
+    <textarea type="text">
+    </textarea>
+    </div>
+    <br>
+    <div>
+      <button id="submit"> Submit</button>
+    </div>
+</form>
+
+</html>
